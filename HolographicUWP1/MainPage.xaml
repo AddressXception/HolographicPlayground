@@ -7,7 +7,20 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Orientation="Horizontal">
+      
+      <Button Click="DirectX_OnClick" Width="200" Height="200">
+        <TextBlock Text="DirectX"> </TextBlock>
+      </Button>
 
-    </Grid>
+      <Button Click="MonoGame_OnClick" Width="200" Height="200">
+        <TextBlock Text="MonoGame"> </TextBlock>
+      </Button>
+
+      <Button Click="UrhoSharp_OnClick" Width="200" Height="200">
+        <TextBlock Text="UrhoSharp"> </TextBlock>
+      </Button>
+    </StackPanel>
+  </Grid>
 </Page>

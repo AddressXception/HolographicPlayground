@@ -3,7 +3,11 @@
     "Microsoft.ApplicationInsights": "1.0.0",
     "Microsoft.ApplicationInsights.PersistenceChannel": "1.0.0",
     "Microsoft.ApplicationInsights.WindowsApps": "1.0.0",
-    "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0"
+    "Microsoft.NETCore.UniversalWindowsPlatform": "5.0.0",
+    "MonoGame.Framework.Windows8": "3.5.1.1679",
+    "SharpDX.Direct2D1": "3.0.2",
+    "SharpDX.Direct3D11": "3.0.2",
+    "UrhoSharp": "1.0.557"
   },
   "frameworks": {
     "uap10.0": {}
